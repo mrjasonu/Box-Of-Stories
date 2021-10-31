@@ -1,6 +1,7 @@
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: cornsilk;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -11,13 +12,14 @@ h1 {
 #nav-bar li {
     display: inline;
     position: relative;
-    left: 430px;
+    left: 380px;
     font-size: 20px;
     margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
 }
 
-#nav-bar li a:hover {
-    color: brown;
+#nav-bar li:hover {
     background-color: #fff;
 }
 
@@ -52,7 +54,6 @@ video {
 }
 
 main div.sample-story {
-    /* border-bottom: 35px solid black; */
     border-bottom: 3px dashed wheat;
 }
 
