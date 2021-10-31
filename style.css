@@ -1,6 +1,5 @@
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* background-color: aqua;*/
     background-color: cornsilk;
 }
 
@@ -12,7 +11,7 @@ h1 {
 #nav-bar li {
     display: inline;
     position: relative;
-    left: 520px;
+    left: 490px;
     font-size: 20px;
     margin: 10px;
 }
@@ -43,10 +42,22 @@ footer {
 
 main p {
     font-size: 15px;
+    line-height: 20px;
 }
 
 video {
     position: relative;
     left: 400px;
     margin: 20px;
+}
+
+main div.sample-story {
+    border-bottom: 2px solid black;
+}
+
+#author {
+    font-size: 60px;
+    font-weight: 900;
+    font-style: italic;
+    color: orange;
 }
